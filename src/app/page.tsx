@@ -2,10 +2,19 @@ import React from "react";
 import Header from "@/components/header";
 import LargeCard from "@/components/ui/largeCard"
 import Footer from "@/components/footer";
-import AboutViewer from "@/components/ui/aboutViewer";
-import EventViewer from "@/components/ui/eventViewer";
+
+
+const AboutViewer = React.lazy(() => import('@/components/ui/aboutViewer'));
+const EventViewer = React.lazy(() => import('@/components/ui/eventViewer'));
+const MediaViewer = React.lazy(() => import('@/components/ui/mediaViewer'));
 
 export default function Home() {
+  const images = [
+    { src: '/media/1.jpg', alt: 'Image 1' },
+    { src: '/media/2.jpg', alt: 'Image 2' },
+    { src: '/media/3.jpg', alt: 'Image 3' },
+    // Add more images here
+  ];
   return (
     <div className="bg-[#F3F4F6] w-screen h-fit flex flex-col items-center ">
         <div className="sticky top-0 z-10 w-full">
@@ -53,10 +62,13 @@ export default function Home() {
           <h1 className="text-6xl text-[#f3e632] font-black mb-4">JCHEKIM</h1>
           <AboutViewer />
         </div>
-        <div className="mb-64 w-full px-16 bg-[#4b52a3] py-16">
+        <div className=" w-full px-16 bg-[#4b52a3] py-16">
           <h1 className="text-6xl text-white font-black">UPCOMING</h1>
           <h1 className="text-6xl text-white font-black mb-4">EVENTS</h1>
           <EventViewer />
+        </div>
+        <div className="my-16 w-full px-16 ">
+          <MediaViewer images={images} />
         </div>
 
         <Footer />

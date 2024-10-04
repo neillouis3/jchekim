@@ -1,17 +1,18 @@
-import React from "react"
+import React from "react";
 
-export default function LargeCard () {
+export default function LargeCard() {
     return (
-        <div  className="w-full h-4/5 bg-white rounded-xl ">
-            <iframe 
-                width="100%" 
-                height="100%" 
-                src="https://www.youtube.com/embed/K5tSMf9DnSc"  // Updated to embed URL
-                title="YouTube video player" 
-                className="rounded-xl"  // Added class for rounded corners
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowFullScreen>
-            </iframe>
+        <div className="w-full h-4/5 bg-white rounded-xl overflow-hidden">
+            <video 
+                className="w-full h-full object-cover rounded-xl" 
+                autoPlay 
+                controls
+                playsInline
+                preload="auto"
+            >
+                <source src="/media/anv.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
         </div>
-    )
+    );
 }

@@ -10,9 +10,9 @@ const MediaViewer = React.lazy(() => import('@/components/ui/mediaViewer'));
 
 export default function Home() {
   const images = [
-    { src: '/media/1.jpg', alt: 'Image 1' },
-    { src: '/media/2.jpg', alt: 'Image 2' },
-    { src: '/media/3.jpg', alt: 'Image 3' },
+    { src: '/media/1.JPG', alt: 'Image 1' },
+    { src: '/media/2.JPG', alt: 'Image 2' },
+    { src: '/media/3.JPG', alt: 'Image 3' },
     // Add more images here
   ];
   return (

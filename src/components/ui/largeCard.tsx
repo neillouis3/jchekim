@@ -6,11 +6,11 @@ export default function LargeCard() {
             <video 
                 className="w-full h-full object-cover rounded-xl" 
                 autoPlay 
-                controls
+
                 playsInline
                 preload="auto"
             >
-                <source src="/media/anv.mp4" type="video/mp4" />
+                <source src="/media/anv.MP4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </div>

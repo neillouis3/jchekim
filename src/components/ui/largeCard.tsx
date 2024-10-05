@@ -6,7 +6,7 @@ export default function LargeCard() {
             <video 
                 className="w-full h-full object-cover rounded-xl" 
                 autoPlay 
-
+                controls
                 playsInline
                 preload="auto"
             >

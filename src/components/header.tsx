@@ -6,27 +6,28 @@ export default function Header () {
         <nav
             className="w-full bg-white h-fit py-2 flex px-16 items-center justify-between "
         >
-            <div>
-                <img src="/images/logo.jpg" className="w-12 h-fit" />
-            </div>
+            <Link className="w-12 h-fit p-0" href="/">  
+                <img src="/images/logo.jpg" className="w-12 h-fit bg-black" />
 
+            </Link>
+            
             <div className="flex flex-row gap-12 text-gray-500 ">
-                <Link href="#">
+                <Link href="/events">
                     <div className="hover:text-black">
                         Events
                     </div>
                 </Link>
-                <Link href="#">
+                <Link href="/about">
                     <div className="hover:text-black">
                         About JCHEKIM
                     </div>
                 </Link>
-                <Link href="#">
+                <Link href="/locations">
                     <div className="hover:text-black">
                         Locations
                     </div>
                 </Link>
-                <Link href="#">
+                <Link href="/beliefs">
                     <div className="hover:text-black">
                         Beliefs
                     </div>

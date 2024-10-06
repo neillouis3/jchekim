@@ -59,7 +59,7 @@ export default function Home() {
 
         <div className="mt-32  w-full px-16 bg-theme py-16">
           <h1 className="text-6xl text-[#f3e632] font-black">ABOUT</h1>
-          <h1 className="text-6xl text-[#f3e632] font-black  mb-4">JCHEKIM<span className="ml-4 text-xl font-light opacity-75]">Get to know one of God's ministry.</span></h1>
+          <h1 className="text-6xl text-[#f3e632] font-black  mb-4">JCHEKIM<span className="ml-4 text-xl font-light opacity-75]">Get to know one of God&apos;s ministry.</span></h1>
           
           <AboutViewer />
         </div>

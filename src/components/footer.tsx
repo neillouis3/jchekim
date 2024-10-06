@@ -9,24 +9,24 @@ export default function Footer () {
             <div className="flex flex-row items-end h-fit w-full mb-8">
                 <img src="/images/logo.jpg" className="w-32 h-fit" />
             </div>
-            <div className="flex flex-row gap-4 text-gray-500 ">
-                <Link href="#">
-                    <div className="underline hover:text-black">
+            <div className="flex flex-row gap-12 text-gray-500 ">
+                <Link href="/events">
+                    <div className="hover:text-black">
                         Events
                     </div>
                 </Link>
-                <Link href="#">
-                    <div className="underline hover:text-black">
-                        About JCHEKIM
+                <Link href="/about">
+                    <div className="hover:text-black">
+                        About
                     </div>
                 </Link>
-                <Link href="#">
-                    <div className="underline hover:text-black">
+                <Link href="/locations">
+                    <div className="hover:text-black">
                         Locations
                     </div>
                 </Link>
-                <Link href="#">
-                    <div className="underline hover:text-black">
+                <Link href="/beliefs">
+                    <div className="hover:text-black">
                         Beliefs
                     </div>
                 </Link>

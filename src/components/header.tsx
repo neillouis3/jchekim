@@ -19,7 +19,7 @@ export default function Header () {
                 </Link>
                 <Link href="/about">
                     <div className="hover:text-black">
-                        About JCHEKIM
+                        About
                     </div>
                 </Link>
                 <Link href="/locations">

@@ -12,7 +12,7 @@ export default function Events() {
             <Header />
         </div>
         <div className="mt-10 px-16 w-full h-screen flex justify-center">
-          <LargeCard2 />
+          <LargeCard2 imgUrl="/belief.jpg" title="Belief" description="Find out what JCHEKIM believes in"/>
         </div>
 
         <Footer />

@@ -12,7 +12,7 @@ export default function Events() {
             <Header />
         </div>
         <div className="mt-10 px-16 w-full h-screen flex justify-center">
-          <LargeCard2 />
+          <LargeCard2 imgUrl="/location.jpg" title="Locations" description="Come join us to praise & worship the Lord" />
         </div>
 
         <Footer />

@@ -16,7 +16,14 @@ export default function Home() {
     // Add more images here
   ];
   return (
-    <div className="bg-[#F3F4F6] w-screen h-fit flex flex-col items-center ">
+    <>
+      <link
+        rel="icon"
+        href="/icon.png" // Updated href to a valid icon path
+        type="image/png" // Updated type to a valid image type
+        sizes="16x16" // Updated sizes to a valid size
+      />
+      <div className="bg-[#F3F4F6] w-screen h-fit flex flex-col items-center ">
         <div className="sticky top-0 z-10 w-full">
             <Header />
         </div>
@@ -74,6 +81,7 @@ export default function Home() {
 
         <Footer />
 
-    </div>
+      </div>
+    </>
   );
 }

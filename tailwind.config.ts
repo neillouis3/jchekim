@@ -56,7 +56,16 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+  		flex: {
+  			'1': '1 1 0%',  // Updated for flex-1
+  			'2': '2 2 0%',  // Updated for flex-2
+  			'3': '3 3 0%',  // Updated for flex-3
+  			'4': '4 4 0%',  // Updated for flex-4
+  			'5': '5 5 0%',  // Updated for flex-5
+  			'6': '6 6 0%',  // Updated for flex-6
+  			'7': '7 7 0%',  // Updated for flex-7
+  		},
   	}
   },
   plugins: [require("tailwindcss-animate"),], 

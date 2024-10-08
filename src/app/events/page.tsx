@@ -13,18 +13,33 @@ export default function Events() {
         <div className="sticky top-0 z-10 w-full">
             <Header />
         </div>
-        <div className="mt-10 px-16 w-full h-screen flex justify-center">
-          <LargeCard2 title="Events" description="Come join JCHEKIM in worship and fellowship" imgUrl="/event.jpg" />
-        </div>
-        <div className="px-16 w-full flex">
-            <h1 className="font-black text-3xl">Upcoming Events</h1>
-            <UpcomingEventsViewer />
+        <div className="mb-32 px-16 w-full h-fit">
+            <div className="mt-10 w-full h-[40vh] mb-16 flex justify-center">
+            <LargeCard2 title="Events" description="Come join JCHEKIM in worship and fellowship" imgUrl="/event.jpg" />
+            </div>
+
+            <div className="w-full flex ">
+                <div className="flex-1 w-full">
+                    <h1 className=" font-black text-3xl">Upcoming Events</h1>
+                </div>
+                <div className="flex-5 w-full">
+                    <UpcomingEventsViewer />
+                </div>
+                
+            </div>
+
+            <div className="w-full flex ">
+                <div className="flex-1 w-full">
+                    <h1 className="font-black text-3xl">Previous Events</h1>
+                </div>
+               
+                <div className="flex-5 w-full">
+                    <PreviousEventsViewer />
+                </div>
+                
+            </div>
         </div>
 
-        <div className="px-16 w-full flex">
-            <h1 className="font-black text-3xl">Previous Events</h1>
-            <PreviousEventsViewer />
-        </div>
         <Footer />
 
     </div>

@@ -22,13 +22,13 @@ export default function Events() {
                 <div className="flex-1 w-full">
                     <h1 className=" font-black text-5xl text-right text-theme">Upcoming Events</h1>
                 </div>
-                <div className="flex-4 w-full">
+                <div className="flex-4 w-full pb-16">
                     <UpcomingEventsViewer />
                 </div>
                 
             </div>
 
-            <div className="w-full flex gap-4 ">
+            <div className="mt-8 w-full flex gap-4 ">
                 <div className="flex-1 w-full">
                     <h1 className="font-black text-5xl text-right text-theme">Previous Events</h1>
                 </div>

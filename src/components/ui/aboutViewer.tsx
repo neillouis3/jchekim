@@ -10,18 +10,16 @@ export default function AboutViewer() {
     return (
         <div className="w-full h-full flex flex-row gap-4 items-center">
                     <div className="flex-1">
-                        <MediumCard title="Purpose" imgUrl="/images/bibleStudy.jpg"/>
+                        <MediumCard title="" imgUrl="/images/purpose.png"/>
                     </div>
                     <div className="flex-1">
-                        <MediumCard title="History" imgUrl="/images/history.jpg"/>
+                        <MediumCard title="" imgUrl="/images/history.png"/>
                     </div>
 
                     <div className="flex-1">
-                        <MediumCard title="Belief" imgUrl="/images/bible.jpg"/>
+                        <MediumCard title="" imgUrl="/images/belief.png"/>
                     </div>
-                    <div className="flex-1">
-                        <MediumCard title="Location" imgUrl="/images/prayerMeeting.jpg"/>
-                    </div>
+
 
 
         </div>

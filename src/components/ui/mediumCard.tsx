@@ -15,7 +15,7 @@ export default function MediumCard({title, href = "#", imgUrl}: {title: string; 
                     height={500}
                     className="w-full h-full rounded-xl transition-all duration-300 group-hover:opacity-50 object-cover" 
                 /> {/* Added object-cover to maintain aspect ratio */}
-                <div className="absolute inset-0 flex w-full h-full bg-black bg-opacity-40 rounded-xl justify-center items-center">
+                <div className="absolute inset-0 flex w-full h-full rounded-xl justify-center items-center">
                     <h1 className="text-xl font-black text-white p-2 rounded-xl">{title}</h1>
                 </div>
             </div>

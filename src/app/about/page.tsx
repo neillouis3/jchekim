@@ -17,11 +17,11 @@ export default function About() {
         </div>
         <div className="w-full flex gap-4 px-16 mb-32">
           <h1 className="flex-1 font-black text-5xl justify-start text-right text-theme">More on JCHEKIM</h1>
-          <div className="flex-4 flex flex-row w-full gap-4">
-            <div className="flex-1">
+          <div className="flex-4 grid grid-cols-3 w-full gap-4">
+            <div className="">
                 <MediumCard title="Purpose" imgUrl="/images/bibleStudy.jpg"/>
             </div>
-            <div className="flex-1">
+            <div className="">
                 <MediumCard title="History" imgUrl="/images/history.jpg"/>
             </div>
 

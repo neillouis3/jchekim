@@ -2,6 +2,7 @@ import React from "react";
 import Header from "@/components/header";
 import LargeCard from "@/components/ui/largeCard"
 import Footer from "@/components/footer";
+import GetInvolvedViewer from "@/components/ui/getInvolvedViewer";
 
 
 const AboutViewer = React.lazy(() => import('@/components/ui/aboutViewer'));
@@ -69,6 +70,11 @@ export default function Home() {
           <h1 className="text-6xl text-[#f3e632] font-black  mb-4">JCHEKIM</h1>
           
           <AboutViewer />
+        </div>
+        <div className=" w-full px-16 bg-white py-16">
+          <h1 className="text-6xl text-theme font-black">GET</h1>
+          <h1 className="text-6xl text-theme font-black mb-4">INVOLVED</h1>
+          <GetInvolvedViewer />
         </div>
         <div className=" w-full px-16 bg-[#4b52a3] py-16">
           <h1 className="text-6xl text-white font-black">UPCOMING</h1>

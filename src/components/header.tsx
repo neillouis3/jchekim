@@ -22,11 +22,6 @@ export default function Header () {
                         About
                     </div>
                 </Link>
-                <Link href="/locations">
-                    <div className="hover:text-black">
-                        Locations
-                    </div>
-                </Link>
                 <Link href="/beliefs">
                     <div className="hover:text-black">
                         Beliefs

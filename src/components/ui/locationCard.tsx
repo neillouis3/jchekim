@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function MediumCard({title, href = "#", imgUrl}: {title: string; href?: string; imgUrl: string}) {
+export default function LocationCard({title, href = "#", imgUrl}: {title: string; href?: string; imgUrl: string}) {
 
     return (
         <div className="w-full h-64 flex flex-col rounded-xl group mb-12">

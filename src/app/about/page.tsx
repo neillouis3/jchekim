@@ -13,11 +13,11 @@ export default function About() {
             <Header />
         </div>
         <div className="mt-10 mb-16 px-16 w-full h-[40vh] flex justify-center">
-          <LargeCard2 imgUrl="/about.jpg" title="About" description="Learn more about JCHEKIM"/>
+          <LargeCard2 imgUrl="/about.jpg" title="About" description=""/>
         </div>
-        <div className="w-full flex px-16 mb-32">
-          <h1 className="flex-1 font-black text-3xl">More on JCHEKIM</h1>
-          <div className="flex-5 flex flex-row w-full gap-4">
+        <div className="w-full flex gap-4 px-16 mb-32">
+          <h1 className="flex-1 font-black text-5xl justify-start text-right text-theme">More on JCHEKIM</h1>
+          <div className="flex-4 flex flex-row w-full gap-4">
             <div className="flex-1">
                 <MediumCard title="Purpose" imgUrl="/images/bibleStudy.jpg"/>
             </div>

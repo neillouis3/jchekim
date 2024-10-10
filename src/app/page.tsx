@@ -66,13 +66,13 @@ export default function Home() {
 
         <div className="mt-32  w-full px-16 bg-theme py-16">
           <h1 className="text-6xl text-[#f3e632] font-black">ABOUT</h1>
-          <h1 className="text-6xl text-[#f3e632] font-black  mb-4">JCHEKIM<span className="ml-4 text-xl font-light opacity-75]">Get to know one of God&apos;s ministry.</span></h1>
+          <h1 className="text-6xl text-[#f3e632] font-black  mb-4">JCHEKIM</h1>
           
           <AboutViewer />
         </div>
         <div className=" w-full px-16 bg-[#4b52a3] py-16">
           <h1 className="text-6xl text-white font-black">UPCOMING</h1>
-          <h1 className="text-6xl text-white font-black mb-4">EVENTS<span className=" ml-4 text-xl font-light opacity-75]">Join us in our next worship and fellowship.</span></h1>
+          <h1 className="text-6xl text-white font-black mb-4">EVENTS</h1>
           <EventViewer />
         </div>
         <div className="my-16 w-full px-16 ">

@@ -15,25 +15,25 @@ export default function Events() {
         </div>
         <div className="mb-32 px-16 w-full h-fit">
             <div className="mt-10 w-full h-[40vh] mb-16 flex justify-center">
-            <LargeCard2 title="Events" description="Come join JCHEKIM in worship and fellowship" imgUrl="/event.jpg" />
+            <LargeCard2 title="Events" description="" imgUrl="/event.jpg" />
             </div>
 
-            <div className="w-full flex ">
+            <div className="w-full flex gap-4 ">
                 <div className="flex-1 w-full">
-                    <h1 className=" font-black text-3xl">Upcoming Events</h1>
+                    <h1 className=" font-black text-5xl text-right text-theme">Upcoming Events</h1>
                 </div>
-                <div className="flex-5 w-full">
+                <div className="flex-4 w-full">
                     <UpcomingEventsViewer />
                 </div>
                 
             </div>
 
-            <div className="w-full flex ">
+            <div className="w-full flex gap-4 ">
                 <div className="flex-1 w-full">
-                    <h1 className="font-black text-3xl">Previous Events</h1>
+                    <h1 className="font-black text-5xl text-right text-theme">Previous Events</h1>
                 </div>
                
-                <div className="flex-5 w-full">
+                <div className="flex-4 w-full">
                     <PreviousEventsViewer />
                 </div>
                 

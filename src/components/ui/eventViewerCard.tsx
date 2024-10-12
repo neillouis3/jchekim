@@ -15,7 +15,7 @@ export default function eventViewerCard({title, date, href = "#", imgUrl}: {titl
                     height={500}
                     className="w-full h-full rounded-xl transition-all duration-300 group-hover:opacity-50 object-cover" 
                 /> {/* Added object-cover to maintain aspect ratio */}
-                <div className="absolute inset-0 flex flex-col w-full h-full bg-black bg-opacity-50 rounded-xl justify-center items-center">
+                <div className="absolute inset-0 flex flex-col w-full h-full rounded-xl justify-center items-center">
                     <h1 className="text-lg font-bold text-white rounded-xl">{title}</h1>
                     <h1 className="text-md text-white rounded-xl">{date}</h1>
                 </div>

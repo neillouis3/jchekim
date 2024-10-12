@@ -11,7 +11,7 @@ export default function EventViewer() {
         <div className="w-full h-full flex flex-row items-center gap-4">
 
             <div className="flex-1">
-                <EventViewerCard title="JCHEKIM Jeddah 16th Anniversary" date="" imgUrl="/images/bibleStudy.jpg"/>
+                <EventViewerCard title="" date="" imgUrl="/images/christmas.png"/>
         
             </div>
             <div className="flex-1">

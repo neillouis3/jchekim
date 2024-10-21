@@ -12,7 +12,7 @@ export default function Belief() {
             <Header />
         </div>
         <div className="mt-10 px-16 w-full h-[40vh] flex justify-center">
-          <LargeCard2 imgUrl="/belief.jpg" title="Belief" description="Find out what JCHEKIM believes in"/>
+          <LargeCard2 imgUrl="/belief.jpg" title="Belief" description=""/>
         </div>
 
         <Footer />

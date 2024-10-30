@@ -24,7 +24,7 @@ export default function Home() {
         type="image/png" // Updated type to a valid image type
         sizes="16x16" // Updated sizes to a valid size
       />
-      <div className="bg-[#F3F4F6] w-screen h-fit flex flex-col items-center ">
+      <div className="bg-[#F3F4F6] w-screen h-fit font-openSans flex flex-col items-center ">
         <div className="sticky top-0 z-10 w-full">
             <Header />
         </div>
@@ -32,11 +32,11 @@ export default function Home() {
           <LargeCard />
         </div>
         <div className="-mt-20 px-16 w-full h-fit mb-4 ">
-          <h1 className="text-black font-black text-8xl h-fit mb-4">
+          <h1 className="text-black font-bold font-openSans text-8xl h-fit mb-4">
             Welcome to
           </h1>
         
-          <div className="font-black w-full h-fit text-6xl text-[#4b52a3]">
+          <div className="font-[600] w-full h-fit text-6xl font-source4 text-[#4b52a3]">
             <span className="text-theme opacity-100">J</span>
             <span className="opacity-50 hover:opacity-100 transition-opacity duration-300">esus </span>
             <span className="text-theme opacity-100">C</span>
@@ -53,7 +53,7 @@ export default function Home() {
             <span className="text-theme opacity-100">M</span>
             <span className="opacity-50 hover:opacity-100 transition-opacity duration-300">inistry</span>
           </div>
-          <div className="text-black mt-16 w-1/2">
+          <div className="text-black mt-16 w-[60%]">
             <p>
               9 Wherefore God also hath highly exalted him, and given him a name which is above every name:
           
@@ -67,18 +67,18 @@ export default function Home() {
 
         <div className="mt-32  w-full px-16 bg-theme py-16">
           <h1 className="text-6xl text-[#f3e632] font-black">ABOUT</h1>
-          <h1 className="text-6xl text-[#f3e632] font-black  mb-4">JCHEKIM</h1>
+          <h1 className="text-6xl text-[#f3e632] font-source4 font-black  mb-4">JCHEKIM</h1>
           
           <AboutViewer />
         </div>
         <div className=" w-full px-16 bg-white py-16">
           <h1 className="text-6xl text-theme font-black">GET</h1>
-          <h1 className="text-6xl text-theme font-black mb-4">INVOLVED</h1>
+          <h1 className="text-6xl text-theme font-source4 font-black mb-4">INVOLVED</h1>
           <GetInvolvedViewer />
         </div>
         <div className=" w-full px-16 bg-[#4b52a3] py-16">
           <h1 className="text-6xl text-white font-black">UPCOMING</h1>
-          <h1 className="text-6xl text-white font-black mb-4">EVENTS</h1>
+          <h1 className="text-6xl text-white font-source4 font-black mb-4">EVENTS</h1>
           <EventViewer />
         </div>
         <div className="my-16 w-full px-16 ">

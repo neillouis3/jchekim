@@ -66,6 +66,11 @@ const config: Config = {
   			'6': '6 6 0%',  // Updated for flex-6
   			'7': '7 7 0%',  // Updated for flex-7
   		},
+
+		fontFamily: {
+			source4: ['var(--font-source-serif-4)'],
+			openSans: ['var(--font-open-sans)'],
+		}
   	}
   },
   plugins: [require("tailwindcss-animate"),], 
